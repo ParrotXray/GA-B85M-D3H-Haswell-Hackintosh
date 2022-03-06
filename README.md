@@ -1,6 +1,4 @@
-# GA-B85M-D3H-Haswell-Hackintosh
-
-# The project is ongoing and will be launched in the future
+# GA-B85M-D3H-Haswell-Hackintosh(The project is ongoing and will be launched in the future)
 
 ## 🖥️Device
 
