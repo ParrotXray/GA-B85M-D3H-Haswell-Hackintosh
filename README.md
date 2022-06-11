@@ -60,8 +60,6 @@ iGPU with Haswell cpu cannot be driven on macOS Ventura, dGPU needs to be instal
 
 - Storge Boot Option Control：`UEFI Only`
 
-- Advanced/System Agent Configuration/VT-d：`Disabled`
-
 #### Peripherals:
 
 - XHCI Mode：`Enabled`
