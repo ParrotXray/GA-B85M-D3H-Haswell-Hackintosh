@@ -1,23 +1,79 @@
-# GA-B85M-D3H-Haswell-Hackintosh(The project is ongoing and will be launched in the future)
+# GA-B85M-D3H-Haswell-Hackintosh
 
 ## 🖥️Device
 
 | Motherboard | GA B85M-D3H |
 |------------|-------------------------------|
-| CPU | i5 4570 |
+| CPU | Xeon E3-1230v3 |
 | dGPU | AMD Radeon RX560 4G |
-| iGPU | Intel® HD Graphics 4600 |
 | RAM | 16GB |
 | Audio | Realtek ALC892 |
-| WIFI／Bluetooth | BCM94360cd |
+| WIFI／Bluetooth | FV-T919(BCM94360cd) |
 | Ethernet | Realtek® 8111F |
-| BIOS Version | F4 |
+| BIOS Version | F12 |
 
 
 ## 📀System
 
-|  |
+### Noteice:
+iGPU with Haswell cpu cannot be driven on macOS Ventura, dGPU needs to be installed
+ 
+| ![alt text](Mac13.png) |
 |------------|
-| <a href="https://www.apple.com/tw/macos/monterey/"><img src="https://static.techspot.com/images2/downloads/topdownload/2021/10/2021-10-27-ts3_thumbs-36e.png" height="32px"/>macOS Monterey 12.2.1 |
-| <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.8"><img src="https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Docs/Logos/LogoApprox.svg" height="34px"/>Opencore 0.7.8 |
+| <a href="https://www.apple.com/tw/macos/macos-ventura-preview/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/MacOS_logo_%282017%29.svg/512px-MacOS_logo_%282017%29.svg.png?20210723125421" height="32px"/>macOS Ventura 13(beta) |
+| <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.1"><img src="https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Docs/Logos/LogoApprox.svg" height="34px"/>Opencore 0.8.1 |
+| <a href="https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html#how-to-decide"><img src="https://aux.iconspalace.com/uploads/imac-icon-256.png" height="30px"/>iMac 18.1 |
+ 
+- Download:
+
+| ![alt text](Mac.png) |
+|------------|
+| <a href="https://www.apple.com/tw/macos/monterey/"><img src="https://static.techspot.com/images2/downloads/topdownload/2021/10/2021-10-27-ts3_thumbs-36e.png" height="32px"/>macOS Monterey 12.4 |
+| <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.1"><img src="https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Docs/Logos/LogoApprox.svg" height="34px"/>Opencore 0.8.1 |
 | <a href="https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html#how-to-decide"><img src="https://aux.iconspalace.com/uploads/imac-icon-256.png" height="30px"/>iMac 17.1 | 
+ 
+- Download:
+  
+## 💡Device status
+### Works：
+- [x] Graphics
+- [x] USB
+- [x] Sleep
+- [x] WiFi
+- [x] Speakers
+- [x] Microphone
+- [x] Bluetooth
+- [x] Ethernet
+- [x] AirDrop
+### Unkown：
+- [ ] Apple Services
+
+## 🛠️Setting BIOS
+
+#### CFG lock:
+ 
+- The BIOS preset is unlocked
+
+#### BIOS Features:
+
+- Boot Mode Selection：`UEFI Only`
+
+- Storge Boot Option Control：`UEFI Only`
+
+- Advanced/System Agent Configuration/VT-d：`Disabled`
+
+#### Peripherals:
+
+- XHCI Mode：`Enabled`
+
+- Audio Controller：`Enabled`
+
+- EHCI Hand-off：`Enabled`
+ 
+- SATA Configuration/SATA Mode Selection：`AHCI`
+
+- Super IO Configuration/Serial Port A：`Disabled`
+ 
+#### Powrer Management:
+ 
+- ErP：`Enabled`
