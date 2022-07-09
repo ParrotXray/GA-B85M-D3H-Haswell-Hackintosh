@@ -24,15 +24,15 @@ iGPU with Haswell cpu cannot be driven on macOS Ventura, dGPU needs to be instal
 | <a href="https://github.com/dortania/build-repo/releases/tag/OpenCorePkg-7bfa8ae"><img src="https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Docs/Logos/LogoApprox.svg" height="34px"/>Opencore 0.8.3-Dev-7bfa8ae |
 | <a href="https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html#how-to-decide"><img src="https://aux.iconspalace.com/uploads/imac-icon-256.png" height="30px"/>MacPro 7.1 |
  
-- Download:https://github.com/ParrotXray/GA-B85M-D3H-Haswell-Hackintosh/releases/download/v0.8.2-Dev/Opencore.0.8.2-Dev.build-macOS.Ventura.zip
+- Download:https://github.com/ParrotXray/GA-B85M-D3H-Haswell-Hackintosh/releases/tag/v0.8.3-Dev-7bfa8ae
  
 | ![alt text](Mac.png) |
 |------------|
 | <a href="https://www.apple.com/tw/macos/monterey/"><img src="https://static.techspot.com/images2/downloads/topdownload/2021/10/2021-10-27-ts3_thumbs-36e.png" height="32px"/>macOS Monterey 12.4 |
-| <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.1"><img src="https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Docs/Logos/LogoApprox.svg" height="34px"/>Opencore 0.8.1 |
+| <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.2"><img src="https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Docs/Logos/LogoApprox.svg" height="34px"/>Opencore 0.8.2 |
 | <a href="https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html#how-to-decide"><img src="https://aux.iconspalace.com/uploads/imac-icon-256.png" height="30px"/>iMac 17.1 | 
  
-- Download:https://github.com/ParrotXray/GA-B85M-D3H-Haswell-Hackintosh/releases/download/v0.8.1/Opencore.0.8.1.build.zip
+- Download:https://github.com/ParrotXray/GA-B85M-D3H-Haswell-Hackintosh/releases/download/v0.8.2/Opencore.0.8.2.build.zip
 ## 💡Device status
 ### Works：
 - [x] Graphics
