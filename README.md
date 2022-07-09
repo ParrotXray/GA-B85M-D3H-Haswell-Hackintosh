@@ -32,7 +32,7 @@ iGPU with Haswell cpu cannot be driven on macOS Ventura, dGPU needs to be instal
 | <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.2"><img src="https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Docs/Logos/LogoApprox.svg" height="34px"/>Opencore 0.8.2 |
 | <a href="https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html#how-to-decide"><img src="https://aux.iconspalace.com/uploads/imac-icon-256.png" height="30px"/>iMac 17.1 | 
  
-- Download:https://github.com/ParrotXray/GA-B85M-D3H-Haswell-Hackintosh/releases/download/v0.8.2
+- Download:https://github.com/ParrotXray/GA-B85M-D3H-Haswell-Hackintosh/releases/tag/v0.8.2
 ## 💡Device status
 ### Works：
 - [x] Graphics
