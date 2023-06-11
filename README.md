@@ -5,8 +5,8 @@
 | Motherboard | GA B85M-D3H |
 |------------|-------------------------------|
 | CPU | Xeon E3-1230v3 |
-| dGPU | AMD Radeon RX560 4G |
-| RAM | 16GB |
+| dGPU | AMD Radeon RX560 8G |
+| RAM | 32GB |
 | Audio | Realtek ALC892 |
 | WIFI／Bluetooth | FV-T919(BCM94360cd) |
 | Ethernet | Realtek® 8111F |
